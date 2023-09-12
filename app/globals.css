@@ -28,7 +28,7 @@ body,
 }
 
 body {
-  font-family: "Mija_Regular", sans-serif;
+  font-family: "Mija_Regular", sans-serif !important;
 }
 
 h1,
@@ -38,9 +38,9 @@ h4,
 h5,
 h6,
 h7 {
-  font-family: "Mija_Bold", sans-serif;
+  font-family: "Mija_Bold", sans-serif !important;
 }
 
 .logo {
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif !important;
 }
