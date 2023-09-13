@@ -4,6 +4,7 @@ import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
 
 import ModalProvider from "@/providers/modal-provider"
+import ToastProvider from "@/providers/toast-provider"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <ModalProvider />
+        <ToastProvider />
         <Navbar />
         {children}
         <Footer />
